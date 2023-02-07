@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <style>
+
+      .chat-window {
+
+        width: 500px;
+
+        height: 400px;
+
+        margin: 50px auto;
+
+        border: 1px solid lightgray;
+
+        border-radius: 10px;
+
+        overflow-y: scroll;
+
+      }
+
+      .chat-header {
+
+        background-color: #f94877;
+
+        color: white;
+
+        padding: 20px;
+
+        text-align: center;
+
+        border-top-left-radius: 10px;
+
+        border-top-right-radius: 10px;
+
+      }
+
+      .chat-header h1 {
+
+        margin: 0;
+
+      }
+
+      .chat-body {
+
+        padding: 20px;
+
+        height: calc(100% - 80px);
+
+      }
+
+      .chat-message {
+
+        background-color: #f1f1f1;
+
+        color: black;
+
+        padding: 10px;
+
+        border-radius: 10px;
+
+        margin-bottom: 10px;
+
+      }
+
+      .user-message {
+
+        text-align: right;
+
+        margin-left: auto;
+
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="chat-window">
+
+      <div class="chat-header">
+
+        <h1>Happy Valentine's Day!</h1>
+
+      </div>
+
+      <div class="chat-body">
+
+        <div class="chat-message">
+
+          <p>ChatGPT: Hi there! How can I help you celebrate this special day?</p>
+
+        </div>
+
+        <div class="chat-message user-message">
+
+          <p>User: Can you suggest some romantic ideas for Valentine's Day?</p>
+
+        </div>
+
+        <div class="chat-message">
+
+          <p>ChatGPT: Sure! Here are some ideas:</p>
+
+          <ul>
+
+            <li>Take a romantic walk or hike in nature</li>
+
+            <li>Cook a special dinner together</li>
+
+            <li>Write love letters to each other</li>
+
+            <li>Have a movie night with romantic films</li>
+
+            <li>Take a couples spa day</li>
+
+          </ul>
+
+        </div>
+
+        <div class="chat-message user-message">
+
+          <p>User: Those are great ideas! Thanks for your help.</p>
+
+        </div>
+
+        <div class="chat-message">
+
+          <p>ChatGPT: You're welcome! Enjoy your Valentine's Day!</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+
+</html>
